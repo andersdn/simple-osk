@@ -1,0 +1,189 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+    <input id="keyboard-input"/>
+
+    <div class="keywrap">
+    
+    <div class="keys visible" rel="base">
+       
+        <div class="key std"><em>1</em></div>
+        <div class="key std"><em>2</em></div>
+        <div class="key std"><em>3</em></div>
+        <div class="key std"><em>4</em></div>
+        <div class="key std"><em>5</em></div>
+        <div class="key std"><em>6</em></div>
+        <div class="key std"><em>7</em></div>
+        <div class="key std"><em>8</em></div>
+        <div class="key std"><em>9</em></div>
+        <div class="key std"><em>0</em></div>
+
+        <div class="key std"><em>q</em></div>
+        <div class="key std"><em>w</em></div>
+        <div class="key std"><em>e</em></div>
+        <div class="key std"><em>r</em></div>
+        <div class="key std"><em>t</em></div>
+        <div class="key std"><em>y</em></div>
+        <div class="key std"><em>u</em></div>
+        <div class="key std"><em>i</em></div>
+        <div class="key std"><em>o</em></div>
+        <div class="key std"><em>p</em></div>
+
+        <div class="key std"><em>a</em></div>
+        <div class="key std"><em>s</em></div>
+        <div class="key std"><em>d</em></div>
+        <div class="key std"><em>f</em></div>
+        <div class="key std"><em>g</em></div>
+        <div class="key std"><em>h</em></div>
+        <div class="key std"><em>j</em></div>
+        <div class="key std"><em>k</em></div>
+        <div class="key std"><em>l</em></div>
+        <div class="key std"><em>-</em></div>
+
+        <div class="key std"><em>z</em></div>
+        <div class="key std"><em>x</em></div>
+        <div class="key std"><em>c</em></div>
+        <div class="key std"><em>v</em></div>
+        <div class="key std"><em>b</em></div>
+        <div class="key std"><em>n</em></div>
+        <div class="key std"><em>m</em></div>
+        <div class="key std"><em>@</em></div>
+        <div class="key std"><em>.</em></div>
+        <div class="key std"><em>_</em></div>  
+
+        <div class="key dbl"><em>CANCEL</em></div>
+        <div class="key spc"></div>
+        <div class="key std" data-action="kbd:caps"><em>a/A</em></div>
+        <div class="key std" data-action="kbd:sym"><em>SYM</em></div>
+        <div class="key dbl" data-key=" "><em>SPACE</em></div><div class="key spc"></div>
+        
+        <div class="key dbl" data-action="del"><em>&#x27f5; DELETE</em></div><div class="key spc"></div>
+        
+        <div class="key dbl" data-action="done"><em>ENTER &#x23ce;</em></div>
+        <div class="key spc"></div>
+
+    </div>
+
+    <div class="keys" rel="caps">
+       
+        <div class="key std"><em>1</em></div>
+        <div class="key std"><em>2</em></div>
+        <div class="key std"><em>3</em></div>
+        <div class="key std"><em>4</em></div>
+        <div class="key std"><em>5</em></div>
+        <div class="key std"><em>6</em></div>
+        <div class="key std"><em>7</em></div>
+        <div class="key std"><em>8</em></div>
+        <div class="key std"><em>9</em></div>
+        <div class="key std"><em>0</em></div>
+
+        <div class="key std"><em>Q</em></div>
+        <div class="key std"><em>W</em></div>
+        <div class="key std"><em>E</em></div>
+        <div class="key std"><em>R</em></div>
+        <div class="key std"><em>T</em></div>
+        <div class="key std"><em>Y</em></div>
+        <div class="key std"><em>U</em></div>
+        <div class="key std"><em>I</em></div>
+        <div class="key std"><em>O</em></div>
+        <div class="key std"><em>P</em></div>
+
+        <div class="key std"><em>A</em></div>
+        <div class="key std"><em>S</em></div>
+        <div class="key std"><em>D</em></div>
+        <div class="key std"><em>F</em></div>
+        <div class="key std"><em>G</em></div>
+        <div class="key std"><em>H</em></div>
+        <div class="key std"><em>J</em></div>
+        <div class="key std"><em>K</em></div>
+        <div class="key std"><em>L</em></div>
+        <div class="key std"><em>-</em></div>
+
+        <div class="key std"><em>Z</em></div>
+        <div class="key std"><em>X</em></div>
+        <div class="key std"><em>C</em></div>
+        <div class="key std"><em>V</em></div>
+        <div class="key std"><em>B</em></div>
+        <div class="key std"><em>N</em></div>
+        <div class="key std"><em>M</em></div>
+        <div class="key std"><em>@</em></div>
+        <div class="key std"><em>.</em></div>
+        <div class="key std"><em>_</em></div>  
+
+        <div class="key dbl"><em>CANCEL</em></div>
+        <div class="key spc"></div>
+        <div class="key std" data-action="kbd:base"><em>A/a</em></div>
+        <div class="key std" data-action="kbd:sym"><em>SYM</em></div>
+        <div class="key dbl" data-key=" "><em>SPACE</em></div>
+        <div class="key spc"></div>
+        <div class="key dbl" data-action="del"><em>&#x27f5; DELETE</em></div><div class="key spc"></div>
+        <div class="key dbl" data-action="done"><em>ENTER &#x23ce;</em></div>
+        <div class="key spc"></div>
+
+    </div>
+
+    <div class="keys" rel="sym">
+       
+        <div class="key std"><em>!</em></div>
+        <div class="key std"><em>@</em></div>
+        <div class="key std"><em>&pound;</em></div>
+        <div class="key std"><em>$</em></div>
+        <div class="key std"><em>%</em></div>
+        <div class="key std"><em>^</em></div>
+        <div class="key std"><em>&</em></div>
+        <div class="key std"><em>*</em></div>
+        <div class="key std"><em>(</em></div>
+        <div class="key std"><em>)</em></div>
+
+        <div class="key std"><em>-</em></div>
+        <div class="key std"><em>+</em></div>
+        <div class="key std"><em>-</em></div>
+        <div class="key std"><em>=</em></div>
+        <div class="key std"><em>[</em></div>
+        <div class="key std"><em>]</em></div>
+        <div class="key std"><em>{</em></div>
+        <div class="key std"><em>}</em></div>
+        <div class="key std"><em>;</em></div>
+        <div class="key std"><em>'</em></div>
+
+        <div class="key std"><em>;</em></div>
+        <div class="key std"><em>'</em></div>
+        <div class="key std"><em>|</em></div>
+        <div class="key std"><em>\</em></div>
+        <div class="key std"><em>,</em></div>
+        <div class="key std"><em>.</em></div>
+        <div class="key std"><em>/</em></div>
+        <div class="key std"><em><</em></div>
+        <div class="key std"><em>></em></div>
+        <div class="key std"><em>?</em></div>
+
+        <div class="key std"><em>#</em></div>
+        <div class="key std"><em>`</em></div>
+        <div class="key std"><em>@</em></div>
+        <div class="key std"><em>~</em></div>
+        <div class="key dbl"><em>.net</em></div><div class="key spc"></div>
+        <div class="key dbl"><em>.com</em></div><div class="key spc"></div>
+        <div class="key dbl"><em>.co.uk</em></div><div class="key spc"></div>
+
+        <div class="key dbl"><em>CANCEL</em></div>
+        <div class="key spc"></div>
+        <div class="key dbl" data-action="kbd:base"><em>A/a</em></div>
+        <div class="key spc"></div>
+        <div class="key dbl" data-key=" "><em>SPACE</em></div>
+        <div class="key spc"></div>
+        <div class="key dbl" data-action="del"><em>&#x27f5; DELETE</em></div><div class="key spc"></div>
+        <div class="key dbl" data-action="done"><em>ENTER &#x23ce;</em></div>
+        <div class="key spc"></div>
+
+    </div>
+
+    </div>
+
+</body>
+</html>

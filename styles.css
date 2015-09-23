@@ -1,0 +1,98 @@
+html {
+    background-color:#fff;
+    padding:10px;
+}
+body {
+    text-align:center;
+    
+    padding:10px;
+    font-family:sans-serif;
+}
+
+.keywrap{
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.keys{
+    font-size: 0;
+    width: 70%;
+    background-color: #fff;
+    padding: 4px 4px 8px 8px;
+    display: none;
+}
+.keys.visible{
+    display: block;
+}
+.key.active, .key.fakeactive{
+    
+    
+    color: #000;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    transform: translate(0px,2px);
+    -webkit-transform: translate(0px,2px);
+}
+.key.active em, .key.fakeactive em{
+    color: #000;
+}
+.selected{
+    background: #eee !important
+}
+.key {
+    position: relative;
+    height: 80px;
+    background-color: #fff;
+    display: inline-block;
+    width: 9%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+
+    position: relative;
+    
+    margin: 0px 1% 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #ccc;
+    text-decoration: none;  
+    
+
+    transition:transform 0.3s ease;
+    -webkit-transition:transform 0.3s ease;
+}
+
+.key.dbl{
+    width: 19%;
+}
+.key.spc{
+    width: 0;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.key em{
+    font-style: normal;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 74px;
+    font-size: 20px;
+    
+    margin: 4px 4px 0px 0px;
+}
+.key.dbl em{
+    font-size: 14px;
+}
+#keyboard-input{
+    float: left;
+    clear: both;
+    font-size: 100px;
+    margin: 10px;
+    outline: none;
+}
