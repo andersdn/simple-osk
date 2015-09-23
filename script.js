@@ -1,6 +1,8 @@
 /*
     Simple OSK
+    https://github.com/andersdn/simple-osk
     Author :    Anders Downey Najdecki 2015
+    License :   The MIT-Zero (Beerware Remix)
 */
 
 
